@@ -1,0 +1,9 @@
+Symmetric difference with two arrays
+
+1. Receive two arrays as input variables
+2. Isolate a variable from the first array and compare it to every variable in the second
+	-> If there is no match, add the variable from first array to a new array (XOR)
+	-> If there is a match, move on to next variable
+3. Isolate a variable from the second array and compare it to every variable in the first (same conditions)
+4. Note: Before any variable is added to XOR, check to see that the variable is not already in XOR
+5. Return new array XOR
